@@ -3,13 +3,15 @@ import './App.css';
 import StateTutorial from './UseState/StateTutorial';
 import Reducer from './UseReducer/Reducer';
 import EffectTutorial from './UseEffect/EffectTutorial';
+import RefTutorial from './UseRef/RefTutorial';
 
 function App() {
   return (
     <div className="App">
-      <EffectTutorial />
      {/* <StateTutorial/> */}
      {/* <Reducer /> */}
+     {/* <EffectTutorial /> */}
+     <RefTutorial />
     </div>
   );
 }
